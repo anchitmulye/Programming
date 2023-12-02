@@ -2,7 +2,7 @@
 Leetcode
 1: Two Sum
 [EASY]
-Array
+Hash Table
 */
 
 /*
