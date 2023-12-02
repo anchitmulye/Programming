@@ -1,0 +1,5 @@
+# dirs
+
+Build/
+.DS_Store
+.vscode/
