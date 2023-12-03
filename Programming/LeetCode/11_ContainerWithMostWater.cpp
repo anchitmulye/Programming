@@ -31,14 +31,14 @@ Output: 1
 class Solution
 {
 public:
-    int MaxArea(std::vector<int>& heights);
+    int MaxArea(std::vector<int64_t>& heights);
 };
 
-int Solution::MaxArea(std::vector<int>& heights)
+int Solution::MaxArea(std::vector<int64_t>& heights)
 {
-    int maxArea = 0;
-    int low = 0;
-    int high = heights.size() - 1;
+    int64_t maxArea = 0;
+    int64_t low = 0;
+    int64_t high = heights.size() - 1;
 
     while (low < high)
     {
@@ -57,10 +57,10 @@ int main()
     Solution solution;
 
     // Example 1
-    std::vector<int> input_0 = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+    std::vector<int64_t> input_0 = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
 
     // Example 2
-    std::vector<int> input_1 = { 1, 1 };
+    std::vector<int64_t> input_1 = { 1, 1 };
 
     auto ans = solution.MaxArea(input_0);
 
